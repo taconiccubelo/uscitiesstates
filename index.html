@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+    <!--    main css-->
+    <link href="main.css" rel=stylesheet>
+    <!--    leaflet CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+
+    <!--    leaflet js-->
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+
+    <!--    ESRI leaflet-->
+    <script src="https://unpkg.com/esri-leaflet@2.2.4/dist/esri-leaflet.js" integrity="sha512-tyPum7h2h36X52O2gz+Pe8z/3l+Y9S1yEUscbVs5r5aEY5dFmP1WWRY/WLLElnFHa+k1JBQZSCDGwEAnm2IxAQ==" crossorigin=""></script>
+
+    <!--    google font-->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Roboto&display=swap" rel="stylesheet" />
+
+</head>
+
+
+<body>
+
+    <!--APP containers-->
+    <div class="app-container">
+
+        <div class="nav-container">
+            <div>
+                <img id="logo" src="http://img.timeinc.net/time/photoessays/2011/top10_pol_feuds/connecticut_compromise.jpg" />
+            </div>
+            <div id="logo-name">Is your state smaller in population than ...?</div>
+            <div id="spacer"></div>
+        </div>
+
+
+        <div class="map-container">
+            <div id="map"></div>
+        </div>
+
+
+<!--
+        <div class="side-pane-container">
+            <div id="side-pane-title">
+                Choose a city:
+            </div>
+            <div id="map-legend"></div>
+            <div>
+                <img src="http://img.timeinc.net/time/photoessays/2011/top10_pol_feuds/connecticut_compromise.jpg" />
+            </div>
+            <div>
+                <table class="TableListJS" id="entries">
+                    <thead>
+                        <tr>
+                            <td width="200px">City Name</td>
+                            <td width="200px">Population</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td width="200px">New York</td>
+                            <td class="population" width="200px">22,679,000</td>
+                        </tr>
+                        <tr>
+                            <td width="200px">Los Angales</td>
+                            <td class="population" width="200px">18,764,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+-->
+    <!--main JS-->
+    <script src="main.js"></script>
+    <script src="map.js"></script>
+</body></html>
